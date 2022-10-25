@@ -22,7 +22,6 @@
 
 		<!-- twitter -->
 		<meta name="twitter:card" content="summary_large_image" />
-
 		<meta name="twitter:title" content="meta tags" />
 		<meta name="twitter:description" content="this page is about meta tags" />
 		<meta name="twitter:image" content="images/post-3.jpg" />
@@ -31,10 +30,92 @@
 		<link rel="stylesheet" href="styles/style.css" />
 	</head>
 	<body>
+		<section class="form">
+			<div class="container">
+				<form action="#" method="#">
+					<div class="form-row">
+						<label for="user-name">
+							<span>write your name</span>
+							<input type="text" placeholder="write your name" id="user-name" />
+						</label>
+					</div>
+					<div class="form-row">
+						<label for="user-email">write your email</label>
+						<input
+							type="email"
+							id="user-email"
+							placeholder="write your email"
+						/>
+					</div>
+					<div class="form-row">
+						<label for="user-personal-id">write your personal id</label>
+						<input type="number" id="user-personal-id" />
+					</div>
+					<div class="form-row">
+						<label for="user-photo">upload your photo</label>
+						<input type="file" id="user-photo" />
+					</div>
+					<div class="form-row">
+						<label for="user-birth">your birth date</label>
+						<input type="date" id="user-birth" />
+					</div>
+
+					<div class="form-row">
+						<input type="checkbox" id="read-terms" />
+						<label for="read-terms">გავეცანი პირობებს</label>
+
+						<input type="checkbox" id="agree-terms" />
+						<label for="agree-terms">ვეთნხმები პირობებს</label>
+					</div>
+
+					<div class="form-row">
+						<input type="radio" id="male" name="gender" />
+						<label for="male">male</label>
+
+						<input type="radio" id="female" name="gender" />
+						<label for="female">female</label>
+
+						<input type="radio" id="other" name="gender" />
+						<label for="other">other</label>
+					</div>
+
+					<div class="form-row">
+						<label for="user-password">your password</label>
+						<input
+							type="password"
+							id="user-password"
+							placeholder="********"
+							required
+						/>
+						<img src="images/post-2.jpg" class="password-img" alt="" />
+					</div>
+
+					<div class="form-row">
+						<select id="city">
+							<option value="0" selected>select your city</option>
+							<option value="tbilisi">tbilisi</option>
+							<option value="batumi">batumi</option>
+							<option value="kutaisi">kutaisi</option>
+							<option value="rustavi">rustavi</option>
+						</select>
+					</div>
+
+					<div class="form-row">
+						<label for="user-message">your message</label>
+						<textarea id="user-message" cols="30" rows="10"></textarea>
+					</div>
+
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+		</section>
+
 		<section class="about">
 			<div class="container">
 				<h2>About us</h2>
-				<img src="images/post-2.jpg" alt="" />
+				<div class="img-bg">
+					<img src="images/post-2.jpg" alt="" />
+				</div>
 				<p>ლექცია 10</p>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,

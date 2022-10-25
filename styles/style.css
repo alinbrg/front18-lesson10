@@ -8,9 +8,71 @@
 	width: 96%;
 	margin: auto;
 }
+.img-bg {
+	background-color: red;
+	height: 600px;
+}
 
 .about img {
 	width: 600px;
 	height: 300px;
 	object-fit: cover;
+	margin: auto;
+	display: block;
+}
+
+form {
+	width: 600px;
+	margin: 50px auto;
+}
+.form-row {
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: aquamarine;
+}
+input,
+textarea {
+	padding: 10px;
+	border-radius: 10px;
+
+	border: 2px solid black;
+	border-top: 5px solid yellow;
+	font-size: 20px;
+	color: darkblue;
+	background-color: transparent;
+}
+input::placeholder {
+	font-size: 20px;
+	color: green;
+}
+input:focus {
+	outline: none;
+	border-color: red;
+}
+
+.form-row {
+	position: relative;
+}
+.password-img {
+	width: 20px;
+	position: absolute;
+	right: 10px;
+}
+
+select {
+	width: 100%;
+	height: 40px;
+}
+textarea {
+	resize: none;
+}
+button {
+	background-color: darkblue;
+	color: white;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 10px;
+	margin: auto;
+	cursor: pointer;
+	display: block;
 }
